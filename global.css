@@ -1,7 +1,7 @@
 html, body {
 	position: relative;
 	width: 100%;
-	height: 100%;
+	/* height: 100%; */
 }
 
 body {
@@ -66,12 +66,20 @@ button:focus {
 
 .container {
 	/* max-width: 500px; */
-	margin: 100px;
+	margin: 100px 20px;
+}
+
+.title {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	margin-bottom: 50px;
 }
 
 h1 {
 	font-size: 10rem;
+	margin: 0;
 }
+
 p {
 	font-size: 1.2rem;
 	font-weight: 600;
@@ -81,3 +89,9 @@ p {
 #changer {
 	margin-right: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 7rem;
+	}
+  }
