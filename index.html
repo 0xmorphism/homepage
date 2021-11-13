@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<title>0xmorphism</title>
+
+	<link rel='icon' type='image/png' href='./favicon.png'>
+	<link rel='stylesheet' href='./global.css'>
+</head>
+
+<body>
+	<div class="container">
+		<h1><span id="changer">build</span><span>web3</span></h1>
+		<div class="steps">
+			<a href="" target="_blank">1. apply to become member</a>
+			<p>2. if community approves -> airdropped token</p>
+			<a href="">3. join token gated discord</a>
+		</div>
+	</div>
+	<script>
+		var words = ["grow", "invest", "learn", "build"];
+		var i = 0;
+		var text = "build";
+
+		function _getChangedText() {
+			i = (i + 1) % words.length;
+			return text.replace(/build/, words[i]);
+		}
+
+		function _changeText() {
+			var txt = _getChangedText();
+			document.getElementById("changer").innerHTML = txt;
+		}
+		setInterval("_changeText()", 1000);
+	</script>
+</body>
+</html>
+
