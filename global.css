@@ -13,8 +13,8 @@ body {
 }
 
 a {
-	color: white;
-	/* text-decoration: none; */
+	color: #24FF00;
+	text-decoration: none;
 	font-size: 1.2rem;
 	font-weight: 600;
 }
@@ -24,7 +24,7 @@ a:hover {
 }
 
 a:visited {
-	color: rgb(0,80,160);
+	color: #24FF00;
 }
 
 label {
