@@ -1,3 +1,5 @@
+@font-face { font-family: CalSans; src: url('CalSans-SemiBold.otf'); } 
+
 html, body {
 	position: relative;
 	width: 100%;
@@ -65,8 +67,9 @@ button:focus {
 }
 
 .container {
-	/* max-width: 500px; */
+	max-width: 900px;
 	margin: 50px 20px;
+	font-family: CalSans;
 }
 
 .greenbox {
@@ -89,16 +92,17 @@ button:focus {
 }
 
 .brand {
-	margin-left: 50px;
+	padding: 20px;
 	max-width: 200px;
 	max-height: 140px;
 }
 
 .cta {
-	font-size: 1.5rem;
+	border-radius: 50px;
+	text-align: center;
 	color: white;
-	background-color: #24FF00;
-	padding: 30px 50px;
+	border:#24FF00 solid 3px;
+	padding: 30px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	max-width: 200px;
@@ -110,9 +114,8 @@ h1 {
 }
 
 p {
-	font-size: 1.2rem;
-	font-weight: 600;
-	line-height: 1.8rem;
+	font-size: 1.4rem;
+	line-height: 2rem;
 }
 
 #changer {
