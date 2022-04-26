@@ -107,7 +107,7 @@ button:focus {
 }
 
 h1 {
-	font-size: 7rem;
+	font-size: 5rem;
 	margin: 0;
 }
 
@@ -126,7 +126,7 @@ p {
 
 @media only screen and (max-width: 600px) {
 	h1 {
-		font-size: 7rem;
+		font-size: 5rem;
 	}
 	.title {
 		display: flex;
