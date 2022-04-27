@@ -126,7 +126,7 @@ p {
 
 @media only screen and (max-width: 600px) {
 	h1 {
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 	.title {
 		display: flex;
