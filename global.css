@@ -76,18 +76,20 @@ h1 {
 	margin: 0;
 }
 
-/* h2 {
-	font-size: 1rem;
-} */
+h2 {
+	font-size: 1.6rem;
+}
 
 h3 {
-	color: #FFC92F;
-	font-size: 1rem;
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	margin-bottom: 0;
 }
 
 p {
 	font-size: 1.4rem;
-	line-height: 2rem;
+	line-height: 1.8rem;
+	margin-top: 10px;
 }
 
 .project {
