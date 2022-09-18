@@ -80,15 +80,24 @@ h2 {
 	font-size: 1.6rem;
 }
 
-h3 {
-	font-size: 1.4rem;
-	line-height: 1.8rem;
-	margin-bottom: 0;
-}
 
 p {
 	font-size: 1.4rem;
 	line-height: 1.8rem;
+	margin-top: 10px;
+}
+
+.post-title {
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 1.2rem;
+	margin-top: 10px;
+}
+
+.post-description {
+	font-size: 1rem;
+	line-height: 1.8rem;
+	margin-bottom: 20px;
 	margin-top: 10px;
 }
 
