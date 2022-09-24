@@ -87,26 +87,12 @@ p {
 	margin-top: 10px;
 }
 
-.header {
-	display: grid;
-	grid-template-columns: repeat(6, 1fr);
-	height: 2px;
-}
-
-.one {
-	background-color: pink;
-}
-
-.two {
-	background-color: green;
-}
-
-.three {
-	background-color: yellow;
-}
-
-.four {
-	background-color: orangered;
+.treasury {
+	border: 1px solid white;
+	padding: 5px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-bottom: 20px;
 }
 
 .post-title {
@@ -154,6 +140,14 @@ label {
 	display: flex;
 	flex-direction: row;
 	grid-gap: 5px;
+	margin-top: 20px;
+}
+
+input {
+	width: 100%;
+}
+.email-button {
+	width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
