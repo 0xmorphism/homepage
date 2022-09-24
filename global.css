@@ -7,15 +7,15 @@ html, body {
 }
 
 body {
-	color: rgb(19, 45, 29);
-	background-color: #FFFAEC;
+	color: white;
+	background-color: #0010ff;
 	margin: 0;
 	box-sizing: border-box;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 a {
-	color: rgb(19, 45, 29);
+	color: white;
 	text-decoration: none;
 }
 
@@ -24,7 +24,7 @@ a:hover {
 }
 
 a:visited {
-	color: rgb(19, 45, 29);
+	color: white;
 }
 
 label {
@@ -123,7 +123,9 @@ p {
 
 label {
 	text-transform: uppercase;
-	font-size: 0.8rem;
+	font-size: 0.6rem;
+	font-weight: 500;
+	color: rgb(255, 0, 191);
 }
 
 .community-channels {
