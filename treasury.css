@@ -1,0 +1,59 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.back {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+
+.initiative {
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    align-items: center;
+}
+
+.status {
+    background-color: bisque;
+    padding: 5px 8px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.approved {
+    background-color: rgb(124, 215, 218);
+}
+
+.treasury {
+	border: 1px solid black;
+    /* width: 100%; */
+    padding: 10px;
+}
+
+.treasury-sum {
+    font-size: 2rem;
+}
+
+.asset-row {
+    display: grid;
+    grid-template-columns: 2.5fr 1.5fr;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid grey;
+}
+
+button {
+    background-color: #0010ff;
+    color: white;
+}
