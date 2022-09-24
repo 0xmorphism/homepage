@@ -87,6 +87,28 @@ p {
 	margin-top: 10px;
 }
 
+.header {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	height: 2px;
+}
+
+.one {
+	background-color: pink;
+}
+
+.two {
+	background-color: green;
+}
+
+.three {
+	background-color: yellow;
+}
+
+.four {
+	background-color: orangered;
+}
+
 .post-title {
 	font-weight: 600;
 	font-size: 1rem;
