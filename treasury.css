@@ -57,3 +57,11 @@ button {
     background-color: #0010ff;
     color: white;
 }
+
+a {
+    color: black;
+}
+
+a:visited {
+	color: black;
+}
