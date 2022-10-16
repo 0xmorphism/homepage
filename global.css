@@ -64,13 +64,6 @@ button:focus {
 	border-color: #666;
 }
 
-.container {
-	display: grid;
-	margin: 20px;
-	grid-gap: 30px;
-	grid-template-columns: 0.8fr 1.5fr 0.7fr;
-}
-
 h1 {
 	font-size: 4rem;
 	margin: 0;
@@ -88,12 +81,36 @@ p {
 	margin-top: 10px;
 }
 
+.container {
+	display: grid;
+	margin: 20px;
+	grid-gap: 30px;
+	/* grid-template-columns: 0.8fr 1.5fr 0.7fr; */
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.community-channels {
+	display: flex;
+	flex-direction: row;
+	grid-gap: 5px;
+}
+
+.hero {
+	display: grid;
+	grid-template-columns: 2.8fr 1.2fr;
+}
+
 .treasury {
 	border: 1px solid white;
 	padding: 5px;
 	border-radius: 5px;
 	display: inline-block;
-	margin-bottom: 20px;
 }
 
 .post-title {
@@ -110,23 +127,38 @@ p {
 	margin-top: 10px;
 }
 
+.projects {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+}
+
 .project {
 	/* background-color: pink; */
 	padding: 30px;
 	color: white;
+	padding-bottom: 300px;
 }
 
 .first-project {
-	padding-top: 300px;
 	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("imgs/waterfight.png");
 	background-position: center;
 	background-size: cover;
 }
 
 .second-project {
-	margin-top: 20px;
-	padding-top: 80px;
 	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("imgs/jam.png");
+	background-position: bottom;
+}
+
+.third-project {
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("imgs/devnode.png");
+	background-size: cover;
+}
+
+.fourth-project {
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("imgs/domore.png");
+	background-size: cover;
 	background-position: bottom;
 }
 
@@ -139,13 +171,6 @@ label {
 	font-size: 0.8rem;
 	font-weight: 500;
 	color: rgb(255, 0, 191);
-}
-
-.community-channels {
-	display: flex;
-	flex-direction: row;
-	grid-gap: 5px;
-	margin-top: 20px;
 }
 
 input {
@@ -164,10 +189,17 @@ input {
 	.container {
 		grid-template-columns: 1fr;
 	}
+
+	.projects {
+		display: flex;
+		grid-template-rows: repeat(3, 1fr);
+		grid-gap: 30px;
+	}
+
 	h1 {
 		font-size: 3rem;
 	}
-	.title {
+	.hero {
 		display: flex;
 		flex-direction: column;
 	}
