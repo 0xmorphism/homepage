@@ -93,6 +93,13 @@ p {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	align-content: center;
+}
+
+.logo {
+	height: 25px;
+	align-self: center;
+	margin: 5px;
 }
 
 .community-channels {
