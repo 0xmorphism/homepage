@@ -73,3 +73,13 @@ a {
 a:visited {
 	color: black;
 }
+
+@media only screen and (max-width: 600px) {
+    .treasurycontainer {
+        display: grid;
+        margin: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr 0.5fr;
+        grid-gap: 20px;
+    }
+  }
